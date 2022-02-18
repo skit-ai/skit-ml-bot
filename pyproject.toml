@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "skit-ml-bot"
+version = "0.1.0"
+description = "Datasets, Evaluation and Annotation tool for voicebots."
+authors = ["ltbringer <amresh.venugopal@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+skit-auth = "^0.1.2"
+skit-calls = "^0.1.6"
+skit-labels = "^0.3.10"
+skit-fixdf = "^0.1.10"
+fastapi = "^0.74.0"
+uvicorn = "^0.17.5"
+SQLAlchemy = "^1.4.31"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
